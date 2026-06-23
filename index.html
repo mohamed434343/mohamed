@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1280">
     <title>Mo Hussien | Graphic Designer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
@@ -246,19 +246,7 @@ section {
     transform: scale(1.2);
 }
 
-@media (max-width: 900px) {
-    .projects-grid { grid-template-columns: repeat(2, 1fr); }
-    .project-item:nth-child(6),
-    .project-item:nth-child(8) { grid-column: span 2; }
-    section { padding: 80px 40px; }
-    header { padding: 10px 40px; }
-}
-
-@media (max-width: 600px) {
-    .projects-grid { grid-template-columns: 1fr; }
-    .project-item:nth-child(6),
-    .project-item:nth-child(8) { grid-column: span 1; aspect-ratio: 16 / 7; }
-}
+/* Mobile media queries disabled to keep desktop look on all devices */
 
 /* Freelancer icon sizing */
 .freelancer-icon {
@@ -348,13 +336,7 @@ section {
     line-height: 1.7;
 }
 
-@media (max-width: 900px) {
-    .services-grid { grid-template-columns: repeat(2, 1fr); }
-}
-
-@media (max-width: 600px) {
-    .services-grid { grid-template-columns: 1fr; }
-}
+/* Mobile media queries disabled to keep desktop look on all devices */
 
 /* ===== BACK TO TOP BUTTON ===== */
 .back-to-top {
